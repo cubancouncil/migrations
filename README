@@ -1,0 +1,9 @@
+PHP tool for migrating a mysql database
+
+php migrate.php update
+
+Migration files should be named like this:
+
+001_Comment_about_version.php
+
+the migrate script will read the files in alphabetical order
